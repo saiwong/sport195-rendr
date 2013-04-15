@@ -1,7 +1,7 @@
 # Sport195 - Rendr Example
 ## GitHub Browser
 
-The purpose of this little app is to demonstrate the Sport195 site using the (Rendr)[https://github.com/airbnb/rendr] engine.
+The purpose of this little app is to demonstrate the Sport195 site using the [Rendr](https://github.com/airbnb/rendr) engine.
 
 ## Running the example
 
