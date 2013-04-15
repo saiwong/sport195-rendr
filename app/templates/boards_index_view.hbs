@@ -1,0 +1,9 @@
+<ul class="wall">
+{{#each models}}
+	{{partial "board_view" context=this}}
+{{/each}}
+</ul>
+
+<div class="wall-footer">
+	<button class="load-more btn btn-primary" type="button">Load More</button>
+</div>

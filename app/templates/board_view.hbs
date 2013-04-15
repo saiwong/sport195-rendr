@@ -1,0 +1,24 @@
+<li class="pin">
+	<article>
+		<h4>{{type}}</h4>
+		<header class="clearfix">
+			<div class="user-image" style="background-image: url({{user.image_url}})"></div>
+			<div>
+				<address>
+					<a href="{{user.url}}">{{user.name}}</a>
+				</address>
+				<time datetime="{{publish_date}}" pubdate><span class="time-ago">{{relativeTime publish_date}}</span>{{formatDate publish_date}}</time>
+			</div>
+		</header>
+		<h2>{{title}}</h2>
+		<p>{{description}}</p>
+		
+		{{#if image}}
+		<img src="{{image.url}}" />
+		{{/if}}
+
+		{{#if video}}
+		{{{video.embed}}}
+		{{/if}}
+	</article>
+</li>

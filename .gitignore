@@ -1,0 +1,7 @@
+node_modules
+public/mergedAssets.js
+app/templates/compiledTemplates.js
+public/styles.css
+public/app.js
+.DS_Store
+npm-debug.log

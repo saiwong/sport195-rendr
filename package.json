@@ -1,0 +1,31 @@
+{
+  "name": "sport195-rendr",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=app:* node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/saiwong/sport195-rendr.git"
+  },
+  "dependencies": {
+    "express": "~>3",
+    "coffee-script": "~1.6.2",
+    "underscore": "~1.4.4",
+    "async": "~0.1.22",
+    "request": "~2.16",
+    "rendr": "git+ssh://git@github.com:airbnb/rendr.git#2c9aa6ed8d4f743a066cab2c3c64cfa0ec22e723",
+    "debug": "*"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-stylus": "~0.5.0",
+    "grunt-contrib-handlebars": "git://github.com/spikebrehm/grunt-contrib-handlebars#d61e7457c6551965f88de46ad207fd67d18ddd4a",
+    "grunt-rendr-stitch": "~0.0.2"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}

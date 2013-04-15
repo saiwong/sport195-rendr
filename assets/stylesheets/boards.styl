@@ -1,0 +1,88 @@
+/* ==========================================================================
+   Pinterest style wall
+   ========================================================================== */
+
+.boards_index_view
+	position: relative
+
+.wall
+	margin: 50px auto
+
+	.pin
+		display: inline-block
+		background: #FEFEFE
+		box-shadow: 0 1px 4px rgba(34, 25, 25, 0.4)
+		margin: 0 5px 15px
+		padding-bottom: 5px
+
+@media (min-width: 480px)
+	.wall .pin
+		width: 220px
+
+/* ==========================================================================
+   Wall panel styling
+   ========================================================================== */
+
+li.pin
+	font-size: 0.7rem
+	line-height: 1rem
+	right: 0px
+
+	h4
+		color: #AAA
+		font-weight: normal
+		text-transform: uppercase
+		margin: 0px
+		font-size: 1.2em
+		padding: 5px
+
+	article
+		header
+			line-height: 1em
+			background-color: #DDD
+			border-top: 1px solid #575757
+			border-bottom: 1px solid #575757
+			padding: 3px 3px
+
+			div
+				float: left
+
+			div.user-image
+				width: 38px
+				height: 38px
+				margin-right: 5px
+
+				background-color: white
+				background-repeat: no-repeat
+				background-size: contain
+				background-position: 50% 50%
+
+			div address
+				margin: 0px
+				line-height: 1em
+
+			div time
+				color: #858585
+
+			div time span
+				display: block
+				color: #A5A5A5
+
+		h2
+			font-size: 1.5em
+			line-height: 1.2em
+			padding: 0px 5px
+
+		p
+			padding: 0px 5px
+			word-wrap: break-word
+
+/* ==========================================================================
+   Wall fotter
+   ========================================================================== */
+
+.wall-footer
+	width: 100%
+	position: absolute
+	bottom: 0px
+	text-align: center
