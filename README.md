@@ -41,4 +41,4 @@ You can choose a different port by passing the `PORT` environment variable:
 
 ## Rendr
 
-This example uses the Rendr engine to allow processing both server side and client side HTML utilizing Backbone as the MVC to govern the business logic. Please see (Rendr)[https://github.com/airbnb/rendr] for full documentation.
+This example uses the Rendr engine to allow processing both server side and client side HTML utilizing Backbone as the MVC to govern the business logic. Please see [Rendr](https://github.com/airbnb/rendr) for full documentation.
